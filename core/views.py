@@ -41,6 +41,7 @@ def index(request):
     final_suggestions_list = [x for x in list(new_suggestions_list) if (x not in list(current_user))]
     random.shuffle(final_suggestions_list)
 
+
     username_profile = []
     username_profile_list = []
 
